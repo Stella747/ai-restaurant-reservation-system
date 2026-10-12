@@ -99,7 +99,7 @@ The **Reservation Orchestrator** agent can:
 
 Tool implementations live in `backend/restaurant-reservation-system/tools/`.
 
-## Known limitations (honest demo scope)
+## Known limitations
 
 - Staff dashboard and table floor plan use **mock data** in the UI.  
 - Guest/table REST routes are stubs.  
