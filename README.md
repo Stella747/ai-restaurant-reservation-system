@@ -99,7 +99,7 @@ The **Reservation Orchestrator** agent can:
 
 Tool implementations live in `backend/restaurant-reservation-system/tools/`.
 
-## Known limitations (honest demo scope)
+## Known limitations
 
 - Staff dashboard and table floor plan use **mock data** in the UI.  
 - Guest/table REST routes are stubs.  
@@ -107,21 +107,17 @@ Tool implementations live in `backend/restaurant-reservation-system/tools/`.
 - Full Knowledge Base setup requires AWS resources (see `prereqs/knowledge_base.py`).  
 - Running reservations requires valid AWS credentials and Bedrock access.  
 
-## Resume highlights
+## My Contribution: As an AI Engineer I was responsible for:
 
-Use these as a starting point and adjust for **your** contribution:
+- Understanding business and operational requirements
+- Converting business problems into AI solutions
+- Defining data requirements and knowledge sources
+- Designing agent workflows
+- Building the FastAPI backend
+- Developing reservation APIs
+- Integrating Amazon Bedrock services
+- Implementing multi-agent orchestration
+- Supporting end-to-end solution architecture
 
-- Built a **Gen AI reservation orchestrator** on **Amazon Bedrock** with **tool calling** for bookings, table assignment, and operational queries.  
-- Designed **DynamoDB** persistence for bookings and table slots with a repository layer in Python.  
-- Delivered a **React/TypeScript** multi-role UI for guests and restaurant staff.  
-- Integrated **FastAPI** with the agent pipeline for production-style REST intake.  
-- Prepared **RAG** datasets and Bedrock Knowledge Base helpers for menu and historical reservation context.  
-
-## Team & license
-
-Developed for the Capgemini AWS Gen AI Hackathon by **Digital Hackers**.  
-Confirm licensing and attribution with your team before public release.
-
-## Publishing to GitHub
-
-See [GITHUB_SETUP.md](./GITHUB_SETUP.md) for step-by-step instructions to create a repository and push this project safely (without committing secrets).
+## Team - Digital Hackers
+Built during an AWS Hackathon to explore Agentic AI solutions for restaurant operations.
